@@ -11,4 +11,5 @@ export { default as ChartsHeader } from './ChartsHeader';
 export { default as Header } from './Header';
 export { default as Title3 } from './Title3';
 export { default as Title4 } from './Title4';
+export { default as ButtonRegular } from './ButtonRegular';
 export { default as Question } from './Drill/Question';

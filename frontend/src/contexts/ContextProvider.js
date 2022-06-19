@@ -18,6 +18,7 @@ export const ContextProvider = ({ children }) => {
     const [isClicked, setIsClicked] = useState(initialState);
     const [isAuthorized, setIsAuthorized] = useState(false);
     const [drillData, setDrillData] = useState([]);
+    const [isSubmitted, setIsSubmitted] = useState(false);
 
     const setMode = (e) => {
         setCurrentMode(e.target.value);
@@ -33,7 +34,29 @@ export const ContextProvider = ({ children }) => {
 
     return (
     // eslint-disable-next-line react/jsx-no-constructed-context-values
-        <StateContext.Provider value={{ currentColor, currentMode, activeMenu, screenSize, setScreenSize, handleClick, isClicked, initialState, setIsClicked, setActiveMenu, setCurrentColor, setCurrentMode, setMode, setColor, themeSettings, setThemeSettings, isAuthorized, setIsAuthorized, drillData, setDrillData }}>
+        <StateContext.Provider value={{ 
+            currentColor, 
+            currentMode, 
+            activeMenu, 
+            screenSize, 
+            setScreenSize, 
+            handleClick, 
+            isClicked, 
+            initialState, 
+            setIsClicked, 
+            setActiveMenu, 
+            setCurrentColor, 
+            setCurrentMode, 
+            setMode, 
+            setColor, 
+            themeSettings, 
+            setThemeSettings, 
+            isAuthorized, 
+            setIsAuthorized, 
+            drillData, 
+            setDrillData, 
+            isSubmitted, 
+            setIsSubmitted }}>
             {children}
         </StateContext.Provider>
     );
