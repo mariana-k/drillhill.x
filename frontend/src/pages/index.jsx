@@ -15,4 +15,5 @@ export { default as Pie } from './Account/Charts/Pie';
 export { default as Pyramid } from './Account/Charts/Pyramid';
 export { default as Stacked } from './Account/Charts/Stacked';
 export { default as Home } from './Home';
-
+export { default as DrillsList } from './DrillsList';
+export { default as DrillDetail } from './DrillDetail';

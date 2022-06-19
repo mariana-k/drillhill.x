@@ -4,14 +4,14 @@ export default {
     type: 'document',
     fields: [
         {
-            name: 'number',
-            title: 'Number',
-            type: 'number'
-        },
-        {
             name: 'description',
             title: 'Description',
             type: 'string'
-        }
+        },
+        {
+            name: 'isCorrect',
+            title: 'isCorrect',
+            type: 'boolean'
+        },
     ]
 };

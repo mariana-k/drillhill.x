@@ -9,4 +9,6 @@ export { default as Stacked } from './Charts/Stacked';
 export { default as Pie } from './Charts/Pie';
 export { default as ChartsHeader } from './ChartsHeader';
 export { default as Header } from './Header';
-
+export { default as Title3 } from './Title3';
+export { default as Title4 } from './Title4';
+export { default as Question } from './Drill/Question';
